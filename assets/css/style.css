@@ -1,0 +1,114 @@
+/* Results panel background */
+.results-panel {
+    background: #fff8f0;
+}
+
+/* Best results panel background */
+.best-results-panel {
+    background: #f8f9fa;
+}
+
+/* Orange header bar styles */
+.bg-warning.text-center {
+    border-radius: 0 !important; /* No rounded corners */
+}
+.bg-warning {
+    background-color: #ff9800 !important; /* Custom orange */
+    border-radius: 0 !important; /* No rounded corners */
+}
+
+/* White text utility */
+.text-white {
+    color: #fff !important;
+}
+
+/* Sample text display area */
+#sampleText {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 1.1rem;
+    background: #f8f9fa;
+    min-height: 48px;
+    letter-spacing: 0.5px;
+    word-break: break-word;
+}
+
+/* Typing input area */
+#typingInput {
+    font-size: 1.1rem;
+    background: #fff;
+    border: 2px solid #ff9800;
+    border-radius: 0; /* No rounded corners */
+    resize: none;
+}
+
+/* Button styles */
+.btn-warning {
+    background-color: #ff9800;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+}
+.btn-warning:disabled,
+.btn-outline-warning:disabled {
+    opacity: 0.6;
+}
+.btn-outline-warning {
+    border-color: #ff9800;
+    color: #ff9800;
+}
+.btn-outline-warning:hover {
+    background: #ff9800;
+    color: #fff;
+}
+
+/* Results text */
+#results {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* Best results list */
+#bestResults li {
+    margin-bottom: 0.5rem;
+    font-size: 0.98rem;
+}
+
+/* Highlighting for typing accuracy */
+.correct {
+    color: #1976d2;
+    font-weight: bold;
+}
+.incorrect {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 0; /* No rounded corners */
+}
+
+/* Responsive tweaks for tablets */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 0.5rem !important;
+    }
+    #sampleText, #typingInput {
+        font-size: 1rem;
+    }
+}
+
+/* Responsive tweaks for mobile */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+    .btn {
+        font-size: 0.95rem;
+        padding: 0.4rem 0.8rem;
+    }
+    #results, #bestResults li {
+        font-size: 0.92rem;
+    }
+}
+
